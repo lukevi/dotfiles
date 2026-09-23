@@ -19,6 +19,6 @@ alias cr='composer require'
 
 # Common Artisan helpers
 alias mig='php artisan migrate'
-alias mig='php artisan migrate --path'
+alias migp='php artisan migrate --path'
 alias tnk='php artisan tinker'
 alias rts='php artisan route:list'
