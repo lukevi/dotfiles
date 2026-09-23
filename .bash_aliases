@@ -22,3 +22,8 @@ alias mig='php artisan migrate'
 alias migp='php artisan migrate --path'
 alias tnk='php artisan tinker'
 alias rts='php artisan route:list'
+
+# npm
+alias nrb='npm run build'
+alias ni='npm i'
+alias nu='npm u'
