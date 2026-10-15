@@ -10,7 +10,7 @@ alias test='php artisan test'
 alias testf='php artisan test --filter'
 
 # Stream the Laravel log in real time
-alias log='tail -f storage/logs/laravel.log'
+alias log='tail storage/logs/laravel.log -fn500'
 
 # Composer shortcuts
 alias ci='composer install'
